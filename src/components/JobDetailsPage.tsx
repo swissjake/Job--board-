@@ -9,7 +9,7 @@ import { Button } from "./ui/button";
 
 interface JobDetailsPageProps {
   job: Job;
-  applicationLink: string;
+  applicationLink?: string;
 }
 const JobDetailsPage = ({
   job: {
